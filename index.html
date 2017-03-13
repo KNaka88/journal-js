@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Journal</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+  </head>
+  <body>
+    <h1>Your Daily Journal</h1>
+    <form id="journal">
+      <label for='title'>Title</label>
+      <input type='text' id='title'>
+      <label for='body'>Body</label>
+      <textarea id="body" rows="5" cols="50"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="well">
+      <p id="text-output">
+
+      </p>
+      <p>
+        WordsCount: <span id="wc-output"></span><br>
+        VowelsCount: <span id="vc-output"></span><br>
+      </p>
+      <p>
+        Teaser: <span id="teaser-output"></span>
+      </p>
+    </div>
+  </body>
+</html>
